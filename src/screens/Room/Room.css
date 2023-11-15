@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.videoflex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 9vh 2vw;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+
+}
+.insideroom{
+    background-color: #006988;
+    height: 100vh;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.insideroom button{
+    background-color: black;
+    color: #fff;
+    background-color: #F38A01;
+    border-color: transparent;
+    width: 22%;
+    height: 6vh;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 3vh;
+    font-weight: 400;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:480px){
+    .insideroom button{
+        width: 50%;
+    }
+}
