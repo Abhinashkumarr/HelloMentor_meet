@@ -1,5 +1,12 @@
 # React + Vite
 
+<p>THis is the vide calling application just like google meet Testing for Hello Mentor 
+</p>
+
+<ul>
+  <li>React js </li>
+</ul>
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
